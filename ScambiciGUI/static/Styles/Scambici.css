@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Red+Hat+Text&display=swap');
+
+/* default Scambici mocks colors */
+:root {
+	--head-color: #400b06;
+	--lighter-head-color: #75140b;
+	--darker-head-color: #000000;
+	--body-color: #bf9c88;
+	--lighter-body-color: #d2baad;
+	--darker-body-color: #a67559;
+}
+
+body {
+	font-family: 'Red Hat Text', sans-serif !important;
+}
+
+/* logo */
+.logo {
+	font-family: 'Fredoka One', sans-serif;
+	color: var(--head-color);
+}
+
+/* container */
+.container {
+	margin-top: 1.5em!important;
+	max-width: 768px;
+	padding: 3rem!important;
+}
+@media (max-width: 767px) {
+	.container {
+		width: auto!important;
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+}
+@media (max-width: 567px) {
+	.container {
+		padding: 1rem!important;
+	}
+}
+
+/* list-container */
+.list-container {
+	margin-top: 1rem!important;
+	max-width: 568px;
+	margin-left:auto;
+	margin-right: auto;
+	padding: 1rem!important;
+}
+@media (max-width: 567px) {
+	.list-container {
+		width: auto!important;
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+}
+
+/* navbar */
+.navbar-dark .navbar-nav .nav-link {
+	color: #fff;
+	font-weight: bold;
+}
+/* backgrounds */
+.bg-head {
+	background-color: var(--head-color) !important;
+}
+.bg-body {
+	background-color: var(--body-color) !important;
+}
+
+/* border */
+.border-head,
+.border-lg-head {
+	border: 1px solid var(--head-color) !important;
+}
+.border-lg-head {
+	border-width: 2px !important;
+}
+
+
+/* buttons */
+.btn-head {
+	color: #fff;
+    background-color: var(--head-color);
+    border-color: var(--head-color);
+}
+.btn-head:hover,
+.btn-head:active {
+	color: #fff;
+    background-color: var(--lighter-head-color);
+    border-color: var(--lighter-head-color);
+}
+.btn-outline-head {
+	color: var(--head-color);
+    border-color: var(--head-color);
+}
+.btn-outline-head:hover,
+.btn-outline-head:active {
+	color: #fff;
+    background-color: var(--lighter-head-color);
+    border-color: var(--lighter-head-color);
+}
+
+/* inputs */
+.input-head {
+	color: var(--head-color);
+	border: 1.5px solid var(--head-color);
+}
+.input-body {
+	color: var(--body-color);
+	border: 1.5px solid var(--body-color);
+}
+
+/* text */
+.text-head,
+.text-sm-head,
+.text-lg-head {
+	color: var(--head-color);
+}
+.text-body,
+.text-sm-body,
+.text-lg-body {
+	color: var(--body-color);
+}
+
+.text-sm-head,
+.text-sm-body {
+	font-size: smaller;
+}
+.text-lg-head,
+.text-lg-body {
+	font-size: larger;
+}
