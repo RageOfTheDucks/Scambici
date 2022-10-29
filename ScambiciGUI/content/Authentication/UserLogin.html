@@ -1,0 +1,26 @@
+---
+title: Login
+---
+	<link href="/Styles/Authentication/UserLogin.css" rel="stylesheet">
+
+	<!-- SCRIPTS -->
+	<script src="/Scripts/Authentication/UserLogin.js"></script>
+
+<!-- CONTENT -->
+<div class="container bg-body text-center rounded-lg">
+	<h1 class="display-4 logo"><b>Scambici</b></h1>
+	<form id="user-login-form" method="POST">
+		<div class="row">
+			<div class="col-sm-6 my-2 my-sm-0">
+				<input type="email" class="form-control form-control-lg input-head" id="email" placeholder="Email" name="EMailAddress">
+			</div>
+			<div class="col-sm-6">
+				<input type="password" class="form-control form-control-lg input-head" placeholder="Password" name="PasswordHash">
+			</div>
+		</div>
+		<button type="submit" class="btn btn-lg btn-block btn-head mt-3">Invia</button>
+	</form>
+</div>
+
+
+

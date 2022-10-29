@@ -1,0 +1,25 @@
+	
+---
+title: Employee registration
+---
+	<script src="/Scripts/EmployeeHandling/EmployeeRegistration_Employee.js"></script>
+
+
+<!-- CONTENT -->
+<h1 class="display-5 text-head text-center font-weight-bold mt-4">Registrazione dipendente</h1>
+<div class="container bg-body text-head font-weight-bold rounded-lg">
+	<div class="text-lg-head my-2">
+		Ciao <span id="registrand-name">[nome] [cognome]</span>! Benvenuto nel team di Scambici! <br/>
+		Inserisci l'email e la password con i quali accederai alla tua area riservata.
+	</div>
+	<form id="registration-employee" method="POST">
+		<div class="mb-2">
+			<input type="email" class="form-control form-control-lg input-head" placeholder="Email" name="RegistrandEMailAddress">
+		</div>
+		<div class="mb-3">
+			<input type="password" class="form-control form-control-lg input-head" placeholder="Password" name="RegistrandPasswordHash">
+		</div>
+		<button type="submit" class="btn btn-lg btn-block btn-head mt-3">Invia</button>
+	</form>
+</div>
+

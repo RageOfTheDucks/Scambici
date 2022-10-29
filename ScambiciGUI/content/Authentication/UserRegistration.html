@@ -1,0 +1,39 @@
+---
+title: User Registration
+---
+	<link href="/Styles/Authentication/UserRegistration.css" rel="stylesheet">
+
+	<!-- SCRIPTS -->
+	<script src="/Scripts/Authentication/UserRegistration.js"></script>
+</head>
+
+<!-- CONTENT -->
+<div class="container bg-body text-center rounded-lg">
+	<h1 class="display-4 logo"><b>Scambici</b></h1>
+	<form id="user-form" name="user-form">
+		<div class="mb-2">
+			<input type="text" class="form-control form-control-lg input-head" placeholder="Nome" name="Name">
+		</div>
+		<div class="mb-2">
+			<input type="text" class="form-control form-control-lg input-head" placeholder="Cognome" name="Surname">
+		</div>
+		<div class="mb-2">
+			<input type="text" class="form-control form-control-lg input-head" placeholder="Indirizzo" name="Address">
+		</div>
+		<div class="mb-2">
+			<select class="form-control form-control-lg input-head" placeholder="Negozio" name="StoreId" id="store">
+				<option value="" selected disabled>Seleziona il negozio</option>
+			</select>
+		</div>
+		<div class="mb-2">
+			<input type="email" class="form-control form-control-lg input-head" placeholder="Email" name="EMailAddress">
+		</div>
+		<div class="mb-3">
+			<input type="password" class="form-control form-control-lg input-head" placeholder="Password" name="PasswordHash">
+		</div>
+		<button type="submit" class="btn btn-lg btn-block btn-head mt-3">Invia</button>
+	</form>
+</div>
+
+
+

@@ -1,0 +1,7 @@
+baseURL = "https://kmfrick.vision/Scambici/"
+RelativeURLs=true
+CanonifyURLs=true
+languageCode = "it-it"
+title = "Scambici"
+disablePathToLower=true
+

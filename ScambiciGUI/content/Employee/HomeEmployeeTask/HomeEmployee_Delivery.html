@@ -1,0 +1,30 @@
+
+---
+title: Home employee
+---
+	<link href="/Styles/Employee/HomeEmployee.css" rel="stylesheet">
+<!-- CONTENT -->
+<div class="container bg-body rounded-lg">
+	<h1 class="display-4 logo text-center"><b>Scambici</b></h1>
+	<div class="mt-2">
+		<div class="text-lg-head text-center font-weight-bold">
+			Benvenuto [Nome] [Cognome],<br>
+			Al momento ti stai occupando di:
+		</div>
+		<div class="container list-container bg-body text-head rounded-lg shadow border-lg-head">
+			<div class="text-head my-2">
+				Consegna per <span class="text-lg-head font-weight-bold">Alessandro Manzoni</span><br/>
+				Data e ora: <span class="font-weight-bold">06/06/2020 17:30</span><br/>
+				Indirizzo: <span class="font-weight-bold">Via della Beverara, 135/B</span>
+			</div>
+			<form action="/action_page.php">
+				<div class="mt-3">
+					<input type="text" class="form-control" placeholder="Id bicicletta consegnata" name="idDeliveredBike"/>
+				</div>
+				<div class="mt-2">
+					<button type="submit" class="btn btn-block btn-head mt-2">Completa</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>

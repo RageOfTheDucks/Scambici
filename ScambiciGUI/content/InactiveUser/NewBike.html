@@ -1,0 +1,33 @@
+---
+title: New bike
+---
+	<script src="/Scripts/InactiveUser/NewBike.js"></script>
+
+<!-- CONTENT -->
+<div class="container bg-body text-head font-weight-bold rounded-lg">
+	<h1 class="display-4 text-center logo"><b>Scambici</b></h1>
+	<div class="text-lg-head my-2">
+		Desideri una consegna a domicilio?
+	</div>
+	<form id="request-new-bike" name="request-new-bike">
+		<div class="form-check mb-2">
+			<input id="delivery-req" type="radio" class="form-check-input" name="delivery" value="true" checked> Sì
+		</div>
+		<div class="form-check mb-3">
+			<input id="no-delivery-req" type="radio" class="form-check-input" name="delivery" value="false"> No, sono gi&agrave; in negozio
+		</div>
+		<div id="request-delivery">
+			<div class="mb-2 text-lg-head">Quando desideri ricevere la bicicletta?</div>
+			<div class="row">
+				<div class="col pr-2">
+					<input type="text" class="form-control input-head" placeholder="Data" name="DesiredDate" id="DesiredDate">
+				</div>
+				<div class="col pl-2">
+					<input type="text" class="form-control input-head" placeholder="Ora" name="DesiredTime" id="DesiredTime">
+				</div>
+			</div>
+		</div>
+		<button type="submit" class="btn btn-lg btn-block btn-head mt-3">Invia</button>
+	</form>
+</div>
+

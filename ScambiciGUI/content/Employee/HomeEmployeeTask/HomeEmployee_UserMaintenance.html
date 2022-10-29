@@ -1,0 +1,37 @@
+	
+---
+title: Home employee
+---
+	<link href="/Styles/Employee/HomeEmployee.css" rel="stylesheet">
+
+<!-- CONTENT -->
+<div class="container bg-body rounded-lg">
+	<h1 class="display-4 logo text-center"><b>Scambici</b></h1>
+	<div class="mt-2">
+		<div class="text-lg-head text-center font-weight-bold">
+			Benvenuto [Nome] [Cognome],<br>
+			Al momento ti stai occupando di:
+		</div>
+		<div class="container list-container bg-body text-head rounded-lg shadow border-lg-head">
+			<div class="text-head my-2">
+				Manutenzione richiesta da <br class="d-sm-none" \>
+				<span class="text-lg-head font-weight-bold">Alessandro Manzoni</span><br/>
+				<span class="font-weight-bold">Dettagli: </span> sellino instabile
+			</div>
+			<form action="/action_page.php">
+				<div class="mt-3">
+					<input type="text" class="form-control" placeholder="Id bicicletta sostitutiva" name="idSubstitutiveBike"/>
+				</div>
+				<div class="row">
+					<div class="col-sm-4">
+						<button type="submit" class="btn btn-block btn-outline-head mt-2">Sostituisci bici</button>
+					</div>
+					<div class="col-sm-8">
+						<button type="submit" class="btn btn-block btn-head mt-2">Completa</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
